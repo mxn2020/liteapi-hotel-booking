@@ -1,0 +1,16 @@
+id: dbfc144c-04b3-4c52-853d-675138f7a151
+name: liteapi-hotel-booking
+description: "Hotel booking platform with LiteAPI integration"
+tier: prototype
+lane: side-projects
+priority: medium
+category: infra
+focus: true
+open_tasks: 0
+oss: false
+stack: [typescript, react, convex, vite]
+repo: null
+deploy_url: null
+last_active: 2026-03-02
+tags: []
+notes:
