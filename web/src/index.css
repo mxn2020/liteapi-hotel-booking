@@ -1,5 +1,5 @@
 /* ====================================
-   {{APP_NAME}} — Design System
+   LiteAPI Hotel Booking — Design System
    ==================================== */
 
 /* --- CSS Custom Properties --- */
@@ -21,46 +21,34 @@
 
     /* Gradients */
     --gradient-card: linear-gradient(135deg, #0A1128 0%, #0A0A0A 100%);
-
     --gradient-primary: linear-gradient(90deg, var(--color-accent) 0%, #2563EB 100%);
-    ,
-    var(--color-neon-emerald));
+    --gradient-glow: radial-gradient(circle, color-mix(in srgb, var(--color-accent) 30%, transparent), transparent);
 
-    --gradient-glow: radial-gradient(circle, color-mix(in srgb, {
-                {
-                ACCENT_COLOR
-            }
-        }
+    /* Typography */
+    --font-heading: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: monospace;
 
-        30%, transparent), transparent);
+    /* Spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 80px;
 
-/* Typography */
---font-heading: 'Space Grotesk',
-sans-serif;
---font-body: 'Inter',
-sans-serif;
---font-mono: monospace;
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 9999px;
 
-/* Spacing */
---space-xs: 4px;
---space-sm: 8px;
---space-md: 16px;
---space-lg: 24px;
---space-xl: 32px;
---space-2xl: 48px;
---space-3xl: 80px;
-
-/* Border Radius */
---radius-sm: 8px;
---radius-md: 12px;
---radius-lg: 16px;
---radius-xl: 24px;
---radius-full: 9999px;
-
-/* Transitions */
---ease-out: cubic-bezier(0.16, 1, 0.3, 1);
---transition-fast: 150ms var(--ease-out);
---transition-normal: 250ms var(--ease-out);
+    /* Transitions */
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-fast: 150ms var(--ease-out);
+    --transition-normal: 250ms var(--ease-out);
 }
 
 /* --- Reset & Base --- */

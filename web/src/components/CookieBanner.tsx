@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const COOKIE_KEY = '{{APP_SLUG}}-cookie-consent'
+const COOKIE_KEY = 'liteapi-hotel-booking-cookie-consent'
 
 export default function CookieBanner() {
     const [visible, setVisible] = useState(false)

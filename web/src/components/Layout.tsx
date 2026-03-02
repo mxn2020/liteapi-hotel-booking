@@ -43,7 +43,7 @@ export default function Layout({ children }: LayoutProps) {
             <header className="app__header">
                 <Link to="/" className="app__logo">
                     <Sparkles className="app__logo-icon" />
-                    {"{{ APP_NAME }}"}
+                    LiteAPI Hotel Booking
                 </Link>
 
                 <button
@@ -86,7 +86,7 @@ export default function Layout({ children }: LayoutProps) {
             </main>
 
             <footer className="app__footer">
-                <p>{"{{ APP_NAME }}"} — AI-powered application</p>
+                <p>LiteAPI Hotel Booking — AI-powered application</p>
                 <div className="app__footer-links">
                     <Link to="/terms">Terms of Service</Link>
                     <Link to="/privacy">Privacy Policy</Link>
