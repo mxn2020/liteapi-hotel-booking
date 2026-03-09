@@ -1,10 +1,14 @@
-# {{APP_NAME}}
+# HotelIQ
 
-{{APP_DESCRIPTION}}
+[![CI](https://github.com/mxn2020/hoteliq/actions/workflows/ci.yml/badge.svg)](https://github.com/mxn2020/hoteliq/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+AI-powered hotel management and booking system with revenue optimization
 
 ## Tech Stack
 - **Frontend**: Vite + React + TypeScript
 - **Styling**: Vanilla CSS (dark theme design system)
+- **UI Library**: @geenius-ui/react-css
 - **Backend**: Convex (Serverless)
 - **Auth**: Convex Auth (email/password)
 - **Payments**: Stripe (subscriptions)
@@ -16,45 +20,6 @@
 ```bash
 cd web
 pnpm install
-npx convex dev        # Start Convex backend (in one terminal)
-pnpm run dev          # Start Vite dev server (in another terminal)
-```
-
-## First-Time Setup
-
-### 1. Convex Auth Keys
-```bash
-cd web
-node generateKeys.mjs
-```
-
-### 2. NVIDIA AI
-```bash
-npx convex env set NVIDIA_API_KEY nvapi-xxxxx
-```
-
-### 3. Stripe
-```bash
-bash scripts/setup-stripe-products.sh
-npx convex env set STRIPE_SECRET_KEY rk_live_xxxxx
-npx convex env set STRIPE_WEBHOOK_SECRET whsec_xxxxx
-```
-
-### 4. Seed Prompts
-Open the Convex dashboard and run `prompts:seedPrompts`.
-
-## Folder Structure
-
-```
-web/
-├── convex/           # Convex backend (schema, functions, actions)
-├── src/
-│   ├── components/   # Shared UI components
-│   ├── pages/        # Route pages
-│   ├── test/         # Test setup
-│   ├── App.tsx       # Router + routes
-│   ├── main.tsx      # Entry point + providers
-│   └── index.css     # Design system
-├── scripts/          # Stripe & utility scripts
-└── ...configs
+npx convex dev        # Start Convex backend
+pnpm run dev          # Start Vite dev server
 ```

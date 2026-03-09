@@ -4,8 +4,9 @@ import { ConvexAuthProvider } from "@convex-dev/auth/react";
 import { ConvexReactClient } from "convex/react";
 import App from './App.tsx'
 import { ToastProvider } from './components/Toast.tsx'
+import '@geenius-ui/react-css/styles'
 import './index.css'
-import './i18n/i18n'
+import './i18n/i18n.ts'
 import { Analytics } from "@vercel/analytics/react"
 
 const convexUrl = import.meta.env.VITE_CONVEX_URL as string | undefined;
