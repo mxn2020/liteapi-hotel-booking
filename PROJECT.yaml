@@ -1,16 +1,18 @@
-id: 766f4c96-cd6c-4531-9da5-a6d550c0463a
 name: hoteliq
-description: "Hotel booking platform with LiteAPI integration"
+project_scope: main
+project_type: standalone
+description: Hotel booking platform with LiteAPI integration
 tier: prototype
 lane: side-projects
 priority: medium
-category: infra
-focus: true
-open_tasks: 0
 oss: false
 stack: [typescript, react, convex, vite]
-repo: https://github.com/mxn2020/hoteliq
+repo: "https://github.com/mxn2020/hoteliq"
 deploy_url: null
 last_active: 2026-03-02
-tags: [hotel,ai,booking,convex]
-notes:
+tags: [ai, convex, hotel, management, hospitality, booking, operations]
+notes: null
+category: fullstack-app
+focus: true
+open_tasks: 0
+id: 766f4c96-cd6c-4531-9da5-a6d550c0463a
